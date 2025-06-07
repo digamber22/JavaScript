@@ -4,7 +4,7 @@ const dc_heros = ["superman", "flash", "batman"]
 // marvel_heros.push(dc_heros)    // push method 
 
 // console.log(marvel_heros);       // [ 'thor', 'Ironman', 'spiderman', [ 'superman', 'flash', 'batman' ] ]   add as whole array with single index
-// console.log(marvel_heros[3][1]);  // flash
+// console.log(marvel_heros[3][1]);  // flash 
 
 // const allHeros = marvel_heros.concat(dc_heros)    // concate method;
 // console.log(allHeros);                  // [ 'thor', 'Ironman', 'spiderman', 'superman', 'flash', 'batman' ]
