@@ -7,6 +7,7 @@ const ogj1 = {}   // this curly braces is object;
 
 const mySym = Symbol("key1")
 
+// Object literals
 const JsUser = {
     name: "Hitesh",
     "full name": "Hitesh Choudhary",
