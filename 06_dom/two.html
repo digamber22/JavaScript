@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Chai aur code</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <div class="parent">
+        <!-- this is a comment -->
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+<script>
+    // const parent = document.querySelector('.parent')
+    // console.log(parent);
+    // console.log(parent.children);
+    // console.log(parent.children[1].innerHTML);    // Tuesday ;
+
+    // for (let i = 0; i < parent.children.length; i++) {
+    //      console.log(parent.children[i].innerHTML);
+        
+    // }
+    // parent.children[1].style.color = "orange"         // orange col on tuesday
+    // console.log(parent.firstElementChild);     // monday element div  , first element child , move parent to child
+    // console.log(parent.lastElementChild);     // thursday element div 
+
+    const dayOne = document.querySelector('.day')   // child to parent 
+    console.log(dayOne);                            // div.day
+    console.log(dayOne.parentElement);            // div.parent
+    console.log(dayOne.nextElementSibling);       // div.day ..       
+
+    // console.log("NODES: ", parent.childNodes);              // this is important concept --> childNodes , break also consider childnode
+</script>
+</html>
