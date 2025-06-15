@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur code </title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    
+</body>
+<script>
+ // creating the document using script tag;  using  create , setattribute, appending things in body ;
+      // Function to create and append a div with given text
+      let createfunction = function creatediv(text) {
+        const div = document.createElement('div');
+        div.className = "main";
+        div.id = Math.round(Math.random() * 10 + 1);
+        div.setAttribute("title", "generated title");
+        div.style.backgroundColor = "green";
+        div.style.padding = "12px";
+
+        const addText = document.createTextNode(text);
+        div.appendChild(addText);
+
+        document.body.appendChild(div);
+      };
+
+      // Array of texts to add
+      const textList = [
+        "chai aur code",
+        "code with hitesh",
+        "code with digamber",
+        "coding is good",
+        "Chai aur code"
+      ];
+
+      // Loop to call the function 5 times
+      for (let i = 0; i < textList.length; i++) {
+        createfunction(textList[i]);
+      }
+    </script>
+</html>
