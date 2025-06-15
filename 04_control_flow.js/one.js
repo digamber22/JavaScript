@@ -10,6 +10,7 @@ const temperature = 41
 
 // console.log("Execute");
 // <, >, <=, >=, ==, !=, ===, !==
+ // === this is checking both values and datatype also ;
 
 // const score = 200
 
