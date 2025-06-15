@@ -51,8 +51,6 @@ function addone(num){
     return num + 1
 }
 
-
-
 addTwo(5)                              // this will gives error   but above not ; 
 const addTwo = function(num){
     return num + 2
