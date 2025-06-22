@@ -17,7 +17,7 @@
         document.querySelector('h1').innerHTML = "best JS series"
     }
 
-    const changeMe = setTimeout(changeText, 2000)
+    const changeMe = setTimeout(changeText, 2000)            // setTimeout(handler, timeout); // handler is like call back or function without name or funciton(){};
 
     document.querySelector('#stop').addEventListener('click', function(){
         clearTimeout(changeMe)
