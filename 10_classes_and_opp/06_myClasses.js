@@ -16,7 +16,7 @@ class User {
 
 }
 
-const chai = new User("chai", "chai@gmail.com", "123")
+const chai = new User("chai", "chai@gmail.com", "123")   // when new keyword is call then constructor is bedefault is call ;
 
 console.log(chai.encryptPassword());
 console.log(chai.changeUsername());
