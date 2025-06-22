@@ -1,11 +1,11 @@
 #  Projects related to DOM
 
-#project link : 
+# project link : 
   [click here](https://stackblitz.com/edit/stackblitz-starters-ym1nshy7?file=p1-colorChanger%2Fstyle.css)
 
 Solution Code
 
-#project 1 : Solution 
+# project 1 : Solution 
 
 ```javaScript
 console.log("hitesh")
@@ -36,7 +36,7 @@ buttons.forEach(function (button) {
 
 ```
 
-#project 2 : solution
+# project 2 : solution
 
 ```javaScript
 const form = document.querySelector('form');
@@ -65,7 +65,7 @@ form.addEventListener('submit', function (e) {
 
 ```
 
-#project 3 : solution 
+# project 3 : solution 
 
 ```javaScript
 const clock = document.getElementById('clock');
@@ -81,7 +81,7 @@ setInterval(function () {
 
 ```
 
-#project 4 : solution
+# project 4 : solution
 
 ```javaScript
 
@@ -181,7 +181,7 @@ function newGame() {
 
 ```
 
-#project 5 : solution 
+# project 5 : solution 
 
 ```javaScript
 const insert = document.getElementById('insert');
@@ -208,11 +208,11 @@ window.addEventListener('keydown', (e) => {
 
 ```
 
-#project 6 : solution 
+# project 6 : solution 
 
 ```javaScript
 
-//generate a random color
+//generate a random color , using setInterval , clearInterval  concept ;
 
 const randomColor = function () {
   const hex = '0123456789ABCDEF';
