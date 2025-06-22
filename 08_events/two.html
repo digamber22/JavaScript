@@ -19,7 +19,7 @@
 
     const changeMe = setTimeout(changeText, 2000)            // setTimeout(handler, timeout); // handler is like call back or function without name or funciton(){};
 
-    document.querySelector('#stop').addEventListener('click', function(){
+    document.querySelector('#stop').addEventListener('click', function(){            // addEventlistener('type',call back or listener);
         clearTimeout(changeMe)
         console.log("STOPPED")
     })
