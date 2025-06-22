@@ -119,3 +119,5 @@ fetch('https://api.github.com/users/hiteshchoudhary')
 // yes this is also available, kuch reading aap b kro.
 
 // .......
+
+// error 404 find in resolve as response, not in catch,  this is important question 
